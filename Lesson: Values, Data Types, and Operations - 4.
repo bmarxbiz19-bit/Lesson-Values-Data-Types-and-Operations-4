@@ -1,0 +1,7 @@
+const readline = require('readline-sync');
+let myQuestion = readline.question("What letter is in 4th place?");
+let myWord = "Apples";
+let myLetter = "Apples"[3];
+let mySolution = myQuestion + "The answer is: " + myLetter;
+
+console.log(mySolution)
